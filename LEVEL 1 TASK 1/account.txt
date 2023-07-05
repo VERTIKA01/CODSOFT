@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<title>ALL PRODUCTS-VERTIKA STORE</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+  	<div class="logo">
+  		<a href="index.html"><img src="1.JPG" width="125px"></a>
+  	</div>
+  	<nav>
+  		<ul id="MenuItems">
+  			<li><a href="">HOME</li>
+  			<li><a href="">PRODUCTS</li>
+        <li><a href="">ABOUT</li>
+        <li><a href="">CONTACT</li>
+        <li><a href="">ACCOUNT</li>
+  		</ul>
+  	</nav>
+  	<a href="cart.html"><img src="5.jpg" width="30px" height="30px"></a>
+  	<img src="3.png" class="menu-icon" onclick="menutoggle()">
+
+</div>
+</div>
+<!----acoount page----->
+<div class="background">
+            <div class="text">
+                <h1>Login</h1>
+                <p>No Account? <a href="reg.html">Sign up</a></p>
+            </div>
+            <div class="box">
+                <form class="form">
+                    <input type="text" class="username" placeholder="Username" required>
+                    <input type="password" class="password" placeholder="Password" required>
+                    <input type="submit" class="button" value="Login">
+                </form>
+            </div>
+        </div>
+
+<!-------footer------>
+<div class="footer">
+            
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>
+					Download App for Andriod ann Ios mobile phone
+				</p>
+				<div class="app-logo">
+					<img src="1.png" width="200px" height="100px">
+					<img src="2.png" width="200px" height="100px">
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="1.jpg">
+				<p>Our Purpose is to sustainbilitymake the pleasure and benefitts of sports accessible to the many.
+				</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Useful links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog post</li>
+					<li>Return policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow us</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>Youtube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">CopyRight VERTIKA STORE</p>
+	</div>
+</div>
+<!--js for toggle menu--->
+
+ <script>
+ 	var MenuItems = document.getElementById("MenuItems");
+
+ 	MenuItems.style.maxHeight = "0px";
+
+ 	function menutoggle(){
+ 		if (MenuItems.style.maxHeight == "0px") 
+ 		{
+               MenuItems.style.maxHeight = "200px";
+ 		}
+ 		else{
+ 			MenuItems.style.maxHeight = "0px";
+ 		}
+ 	}
+ </script>
+
+ 
+</body>
+</html>

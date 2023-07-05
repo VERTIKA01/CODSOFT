@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<title>ALL PRODUCTS-VERTIKA STORE</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+  	<div class="logo">
+  		<a href="index.html"><img src="1.JPG" width="125px"></a>
+  	</div>
+  	<nav>
+  		<ul id="MenuItems">
+  			<li><a href="index.html">HOME</li>
+  			<li><a href="products.html">PRODUCTS</li>
+        <li><a href="">ABOUT</li>
+        <li><a href="">CONTACT</li>
+        <li><a href="account.html">ACCOUNT</li>
+  		</ul>
+  	</nav>
+  	<a href="cart.html"><img src="5.jpg" width="30px" height="30px"></a>
+  	<img src="3.png" class="menu-icon" onclick="menutoggle()">
+
+</div>
+</div>
+	
+
+<div class="small-container">
+	<div class="row row-2">
+		<h2>ALL PRODUCTS</h2>
+		<select>
+			<option>DEFAULT</option>
+			<option>SORT BY PRICE</option>
+			<option>SORT BY POPULARITY</option>
+			<option>SORT BY FEEDBACK</option>
+			<option>SORT BY SALE</option>
+		</select>
+ 	</div>
+	<div class="row">
+		<div class="col-4">
+			<img src="8.jpg" height="300px">
+			<h4>FLORAL DRESS</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="far fa-star"></i>
+			<div class="rating"></div>
+			<p>Rs.900</p>
+		</div>
+		<div class="col-4">
+			<img src="9.jpg" height="300px">
+			<h4>SIZZLING BROWN BAG</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+			<div class="rating"></div>
+			<p>Rs.600</p>
+		</div>
+		<div class="col-4">
+			<img src="13.jpeg" height="300px">
+			<h4>BLACK POINTED HEELS</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<div class="rating"></div>
+			<p>Rs.450</p>
+		</div>
+		<div class="col-4">
+			<img src="14.jpeg" height="300px">
+			<h4>WATCH</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="far fa-star"></i>
+			<i class="far fa-star"></i>
+			<div class="rating"></div>
+			<p>Rs.300</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-4">
+			<a href="productdetails.html"><img src="15.jpg" height="300px"></a>
+			<h4>HOT RED DRESS</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+		
+			<div class="rating"></div>
+			<p>Rs.1050</p>
+		</div>
+		<div class="col-4">
+			<img src="16.jpg" height="300px">
+			<h4>PATOLA BLACK SUIT</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+			<i class="far fa-star"></i>	
+			<div class="rating"></div>
+			<p>Rs.800</p>
+		</div>
+		<div class="col-4">
+			<img src="17.jpg" height="300px">
+			<h4>JWELL SET</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="far fa-star"></i>
+			<div class="rating"></div>
+			<p>Rs.1999</p>
+		</div>
+		<div class="col-4">
+			<img src="18.jpg" height="300px">
+			<h4>3 SHORTS</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="far fa-star"></i>
+			<i class="far fa-star"></i>
+			<i class="far fa-star"></i>
+			<div class="rating"></div>
+			<p>Rs.300</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-4">
+			<img src="19.jpg" height="300px">
+			<h4>MAKE UP</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="far fa-star"></i>	
+			<i class="far fa-star"></i>	
+		
+			<div class="rating"></div>
+			<p>Rs.750</p>
+		</div>
+		<div class="col-4">
+			<img src="21.jpg" height="300px">
+			<h4>JEANS</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+			<i class="far fa-star"></i>	
+			<div class="rating"></div>
+			<p>Rs.599</p>
+		</div>
+		<div class="col-4">
+			<img src="22.jpg" height="300px">
+			<h4>EARING</h4>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fas fa-star-half-alt"></i>
+			<i class="far fa-star"></i>	
+			<div class="rating"></div>
+			<p>Rs.55</p>
+		</div>
+	</div>
+
+	<div class="page-btn">
+		<span>1</span>
+		<span>2</span>
+		<span>3</span>
+		<span>4</span>
+		<span>&#10141;</span>
+	</div>
+</div>
+
+
+<!-------footer------>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>
+					Download App for Andriod ann Ios mobile phone
+				</p>
+				<div class="app-logo">
+					<img src="1.png" width="200px" height="100px">
+					<img src="2.png" width="200px" height="100px">
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="1.jpg">
+				<p>Our Purpose is to sustainbilitymake the pleasure and benefitts of sports accessible to the many.
+				</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Useful links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog post</li>
+					<li>Return policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow us</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>Youtube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">CopyRight VERTIKA STORE</p>
+	</div>
+</div>
+<!--js for toggle menu--->
+
+ <script>
+ 	var MenuItems = document.getElementById("MenuItems");
+
+ 	MenuItems.style.maxHeight = "0px";
+
+ 	function menutoggle(){
+ 		if (MenuItems.style.maxHeight == "0px") 
+ 		{
+               MenuItems.style.maxHeight = "200px";
+ 		}
+ 		else{
+ 			MenuItems.style.maxHeight = "0px";
+ 		}
+ 	}
+ </script>
+</body>
+</html>
