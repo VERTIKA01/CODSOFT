@@ -1,0 +1,102 @@
+<html>  
+<head>  
+<title> CODSOFT L1 T3 </title>  
+  
+<style>  
+
+h1 {  
+    text-align: center;  
+    padding: 23px;  
+    background-color: skyblue;  
+    color: white;  
+    }  
+  
+#clear{  
+width: 492px;  
+border: 3px solid black;  
+    border-radius: 20px;  
+    padding: 20px;  
+    background-color: #D9B6B6;  
+margin-top: 10px;
+}  
+  
+.vertika  
+{  
+width: 500px;  
+height: 640px;  
+margin: auto ;  
+border: 7px solid black;  
+border-radius: 5px;  
+padding: 10px; 
+background-color: #B8AFC4;
+}  
+  
+input  
+{  
+width: 112px;  
+background-color:#FAF161;  
+color: black;  
+border: 3.5px solid black;  
+    border-radius: 80px;  
+    padding: 28px;  
+    margin: 5px;  
+    font-size: 20px; 
+text-align: center; 
+}  
+  
+  
+#calc{ 
+background-color: #8CDAD4; 
+width: 499px;  
+/*border: 5px solid black; */ 
+    border-radius: 20px;  
+    padding: 30px;  
+    margin: auto;
+font-size: 30px;
+
+}  
+  
+</style>  
+  
+</head>  
+<body>  
+
+<div class= "vertika">  
+<form name = "v1">  
+      
+ 
+  <input id = "calc" type ="text" name = "answer"> <br> <br>  
+   
+  <input type = "button" value = "7" onclick = "v1.answer.value += '7' ">  
+  <input type = "button" value = "8" onclick = "v1.answer.value += '8' ">  
+  <input type = "button" value = "9" onclick = "v1.answer.value += '9' ">  
+   <input type = "button" value = "+" onclick = "v1.answer.value += '+' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "4" onclick = "v1.answer.value += '4' ">  
+  <input type = "button" value = "5" onclick = "v1.answer.value += '5' ">  
+  <input type = "button" value = "6" onclick = "v1.answer.value += '6' ">  
+  <input type = "button" value = "-" onclick = "v1.answer.value += '-' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "1" onclick = "v1.answer.value += '1' ">  
+  <input type = "button" value = "2" onclick = "v1.answer.value += '2' ">  
+  <input type = "button" value = "3" onclick = "v1.answer.value += '3' ">  
+  <input type = "button" value = "*" onclick = "v1.answer.value += '*' ">  
+  <br> <br>  
+    
+    
+  <input type = "button" value = "/" onclick = "v1.answer.value += '/' ">  
+  <input type = "button" value = "0" onclick = "v1.answer.value += '0' ">  
+    <input type = "button" value = "." onclick = "v1.answer.value += '.' ">  
+
+  <input type = "button" value = "=" onclick = "v1.answer.value = eval(v1.answer.value) ">  
+  <br>   
+  
+  <input type = "button" value = "Clear All" onclick = "v1.answer.value = ' ' " id= "clear" >  
+  <br>   
+    
+</form>  
+</div>  
+</body>  
+</html>  
